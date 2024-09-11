@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love You</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>I Love You!</h1>
+        <p class="main-message">Click on the hearts to reveal the hidden message 💖</p>
+        <div class="emoji-container">
+            <div class="emoji" data-message="You are my sunshine!">💛</div>
+            <div class="emoji" data-message="Forever together!">💖</div>
+            <div class="emoji" data-message="You light up my world!">💫</div>
+            <div class="emoji" data-message="My heart is yours!">❤️</div>
+            <div class="emoji" data-message="You are special to me!">💙</div>
+        </div>
+    </div>
+
+    <!-- Message Modal -->
+    <div id="messageModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
